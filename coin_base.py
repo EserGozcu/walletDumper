@@ -11,7 +11,7 @@ import os
 
 
 
-sqlite_file = '/Users/esergozcu/Documents/PycharmProjects/coinbase/my_db.sqlite'
+sqlite_file = '/xxxx/my_db.sqlite'
 table_name = 'wallet_info'
 id_field = 'id_field' # name of the ID column
 date_col = 'date_col' # name of the date column
