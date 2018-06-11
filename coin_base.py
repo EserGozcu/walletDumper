@@ -22,9 +22,9 @@ value_col_type = 'INTEGER'
 id_field_number = 1
 
 
-my_file = Path("/Users/esergozcu/Documents/PycharmProjects/coinbase/my_db.sqlite") #check if sqlite file there, then delete it for a clean start
+my_file = Path("/xxxx/my_db.sqlite") #check if sqlite file there, then delete it for a clean start
 if my_file.is_file():
-    os.remove('/Users/esergozcu/Documents/PycharmProjects/coinbase/my_db.sqlite')
+    os.remove('/xxxx/my_db.sqlite')
 
 # Connecting to the database file
 conn = sqlite3.connect(sqlite_file)
